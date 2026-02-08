@@ -1044,7 +1044,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User Sends User Credentials",
+              "name": "User is Authenticated",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1058,7 +1058,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "User Sends User Credentials"
+              "User is Authenticated"
             ],
             "id": "4f76ce52-3d97-4127-b48e-e6a840c7240e",
             "source": {
