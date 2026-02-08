@@ -1069,12 +1069,7 @@
               "cell": "2dc9d28d-7d89-4f69-b1f5-67309fc00d50",
               "port": "7af9a3a2-7f7f-44fa-9582-1e8b09034f2e"
             },
-            "vertices": [
-              {
-                "x": 440,
-                "y": 280
-              }
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
