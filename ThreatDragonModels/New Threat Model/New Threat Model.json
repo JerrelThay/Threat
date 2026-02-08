@@ -446,13 +446,6 @@
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -604,17 +597,7 @@
                 "x": 450,
                 "y": 190
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "trust-boundary-curve",
@@ -1358,18 +1341,52 @@
               "threats": [
                 {
                   "id": "38c8f480-a87b-4e55-b479-77df3581c7f5",
-                  "title": "New STRIDE threat",
+                  "title": "LDAP Injection",
                   "status": "Open",
                   "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "type": "Tampering",
+                  "description": "LDAP injection is possible, as the user authentication is verified using an LDAP query.",
+                  "mitigation": "",
                   "modelType": "STRIDE",
-                  "new": true,
+                  "new": false,
                   "number": 10,
                   "score": ""
+                },
+                {
+                  "id": "57de787a-e96a-4277-a2be-acef942107c7",
+                  "title": "Missing LDAP Write Logging",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "LDAP claims that it did not write data received from an entity on the other side of the trust boundary.",
+                  "mitigation": "Consider using logging or auditing to record the source, time and a summary of the received data.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                },
+                {
+                  "id": "82139d18-992b-4bff-8482-b3fe83a9810f",
+                  "title": "Unauthorized Data Access in LDAP Directory",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Improper data protection of LDAP can allow an\nattacker to read information not intended for disclosure.",
+                  "mitigation": "Review authorization settings",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
                 }
-              ]
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           }
         ]
@@ -1377,6 +1394,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 12
+    "threatTop": 14
   }
 }
