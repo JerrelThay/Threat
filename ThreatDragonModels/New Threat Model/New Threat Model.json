@@ -786,7 +786,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Verified",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -800,17 +800,27 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Verified"
             ],
             "id": "11ab4d5a-fea5-42bf-b60c-e12e8a009488",
             "source": {
-              "x": 750,
-              "y": 50
+              "cell": "349b7484-70af-49b9-b734-d658717c1dd4",
+              "port": "e0540f86-9d02-4c36-82ee-11b6bb22b046"
             },
             "target": {
-              "x": 850,
-              "y": 150
-            }
+              "cell": "56cce192-a636-4fcd-a553-817e1c3a5aa5",
+              "port": "0a757b8f-912d-4dee-8b49-a32be614902c"
+            },
+            "vertices": [
+              {
+                "x": 850,
+                "y": 90
+              },
+              {
+                "x": 800,
+                "y": 90
+              }
+            ]
           }
         ]
       }
