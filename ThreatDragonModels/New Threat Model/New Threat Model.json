@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 880,
-              "y": 150.00000000000006
+              "x": 860,
+              "y": 20
             },
             "size": {
               "width": 112.5,
@@ -136,8 +136,8 @@
           },
           {
             "position": {
-              "x": 581.75,
-              "y": 150.00000000000006
+              "x": 570,
+              "y": 20
             },
             "size": {
               "width": 140,
@@ -253,8 +253,8 @@
           },
           {
             "position": {
-              "x": 586.75,
-              "y": 337.00000000000045
+              "x": 575,
+              "y": 210.00000000000006
             },
             "size": {
               "width": 130,
@@ -373,8 +373,8 @@
           },
           {
             "position": {
-              "x": 876.25,
-              "y": 357.00000000000045
+              "x": 852.5,
+              "y": 230.00000000000006
             },
             "size": {
               "width": 120,
@@ -497,8 +497,8 @@
           },
           {
             "position": {
-              "x": 271,
-              "y": 357.00000000000045
+              "x": 330,
+              "y": 230.00000000000006
             },
             "size": {
               "width": 112.5,
@@ -620,7 +620,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Generic Trust Boundary",
+              "name": "Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -628,131 +628,17 @@
               "containedElements": []
             },
             "labels": [
-              "Generic Trust Boundary"
+              "Trust Boundary"
             ],
-            "id": "7721438f-25e0-4792-98ff-9d5b035f0e4a",
-            "source": {
-              "x": 830,
-              "y": 150
-            },
-            "target": {
-              "x": 830,
-              "y": 450
-            },
-            "vertices": [
-              {
-                "x": 770,
-                "y": 310
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Generic Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Generic Trust Boundary"
-            ],
-            "id": "a069ee50-da3a-4d0d-bac4-61e28be34274",
+            "id": "aef4c97b-244a-4d2e-8fb6-cce495d8f7ea",
             "source": {
               "x": 550,
-              "y": 170
+              "y": 7
             },
             "target": {
-              "x": 550,
-              "y": 440
-            },
-            "vertices": [
-              {
-                "x": 480,
-                "y": 300
-              }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
+              "cell": "2dc9d28d-7d89-4f69-b1f5-67309fc00d50",
+              "port": "7af9a3a2-7f7f-44fa-9582-1e8b09034f2e"
             }
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": " Generic Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              " Generic Trust Boundary"
-            ],
-            "id": "0e2fb628-69b9-408d-81cd-8394b83913f1",
-            "source": {
-              "x": 540,
-              "y": 230
-            },
-            "target": {
-              "x": 760,
-              "y": 230
-            },
-            "vertices": [
-              {
-                "x": 650,
-                "y": 280
-              }
-            ]
           }
         ]
       }
